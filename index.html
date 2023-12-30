@@ -1,151 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Akash Mahajan - Portfolio</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <style>
-    body {
-      background-color: #ffffff;
-      color: #000000;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Akash Mahajan - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
 
-    .bio {
-      margin-top: 20px;
-    }
+        .bio {
+            margin-top: 20px;
+        }
 
-    .header {
-      background-color: #000000;
-      color: #ffffff;
-      padding: 20px 0;
-    }
+        .header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px 0;
+        }
 
-    .project {
-      margin-top: 20px;
-    }
+        .project {
+            margin-top: 20px;
+        }
 
-    .project-card {
-      border: 1px solid #555555;
-      border-radius: 8px;
-      padding: 15px;
-      margin-bottom: 20px;
-      background-color: #ffffff;
-    }
+        .project-card {
+            border: 0px solid #555555;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
 
-    .skills {
-      margin-top: 30px;
-    }
+        .skills {
+            margin-top: 30px;
+        }
 
-    /* Adjusted font size and color for project headings */
-    .project-card h3 {
-      font-size: 1.5rem;
-      color: #000000;
-    }
+        /* Adjusted font size and color for project headings */
+        .project-card h3 {
+            font-size: 1.5rem;
+            color: #000000;
+        }
 
-    /* Navigation bar color */
-    .navbar {
-      background-color: #000000;
-    }
+        /* Navigation bar color */
+        .navbar {
+            background-color: #000000;
+        }
 
-    /* Navigation bar link color */
-    .navbar-dark .navbar-nav .nav-link {
-      color: #ffffff;
-    }
+        /* Navigation bar link color */
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+        }
 
-    /* Navigation bar link color on hover */
-    .navbar-dark .navbar-nav .nav-link:hover {
-      color: #ffffff;
-    }
-  </style>
+        /* Navigation bar link color on hover */
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #ffffff;
+        }
+
+        /* Footer style */
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555555;
+        }
+    </style>
 </head>
+
 <body>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Akash Mahajan</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <!-- Add more navigation items as needed -->
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Akash Mahajan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#freelancing">Freelancing</a>
+                    </li>
+                    <!-- Add more navigation items as needed -->
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <!-- Header Section -->
-  <div class="header text-center">
-    <h2>Akash Mahajan</h2>
-    <p>Contact: makash@umich.edu | (313)-500-5206</p>
-  </div>
-
-  <div class="container mt-4">
-
-<!-- Bio Section -->
-    <div id="bio" class="bio">
-      <h2>Bio</h2>
-      <p>
-    I am a dedicated and detail-oriented student currently in my first semester at UM-Dearborn with a GPA of 3.9. My coursework and projects have given me hands-on experience in neural networks, deep learning, computer vision, and Python. I've recently worked on projects involving lane segmentation using U-Net and vehicle detection using R-CNN.
-    <br><br>
-    With a background as a Research Assistant at the Indian Institute of Management Calcutta, I've gained practical experience in data analytics and operations on various datasets. My passion lies in contributing to computer vision applications using neural networks and deep learning. I am eager to apply my skills to real-world projects and further expand my knowledge in the field.
-  </p>
+    <!-- Header Section -->
+    <div class="header text-center">
+        <h2>Akash Mahajan</h2>
+        <p>Contact: makash@umich.edu | (313)-500-5206</p>
     </div>
 
-    <!-- Projects Section -->
-    <div id="projects" class="project">
-      <h2>Projects</h2>
+    <div class="container mt-4">
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="project-card">
-            <h3>LaneNet: Lane Segmentation using U-Net</h3>
-            <!--<p>Brief description of Project 1.</p>-->
-            <a href="https://github.com/punarvas?tab=repositories" target="_new">GitHub</a>
-          </div>
+        <!-- Bio Section -->
+        <div id="bio" class="bio">
+            <h3>Bio</h3>
+            <p>
+                I am a dedicated and detail-oriented student currently in my first semester at UM-Dearborn with a GPA of
+                3.9. My coursework and projects have given me hands-on experience in neural networks, deep learning,
+                computer vision, and Python. I've recently worked on projects involving lane segmentation using U-Net and
+                vehicle detection using R-CNN.
+                <br><br>
+                With a background as a Research Assistant at the Indian Institute of Management Calcutta, I've gained
+                practical experience in data analytics and operations on various datasets. My passion lies in
+                contributing to computer vision applications using neural networks and deep learning. I am eager to apply
+                my skills to real-world projects and further expand my knowledge in the field.
+            </p>
         </div>
 
-        <div class="col-md-6">
-          <div class="project-card">
-            <h3>Vehicle Detection using R-CNN</h3>
-            <!--<p>Brief description of Project 2.</p>-->
-            <a href="https://github.com/punarvas/vehicle-detection" target="_new">GitHub</a>
-          </div>
+        <!-- Projects Section -->
+        <div id="projects" class="project">
+            <h3>Showcase</h3>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h4>Lane U-Net: Lane Segmentation on KITTI image dataset</h4>
+                        <p>Lane U-Net is a modified version of the original U-Net architecture for segmenting and
+                            masking
+                            the road lanes for autonomous driving.
+                        </p>
+                        <a href="https://github.com/punarvas?tab=repositories">View project</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h4>Vehicle Detection using R-CNN</h4>
+                        <p>R-CNN based on ResNet50 is implemented to detect vehicles and locate them with bounding boxes.
+                            To make the detection challenging, the model is trained on a hybrid dataset of KITTI, DAWN,
+                            and some online images.
+                        </p>
+                        <a href="pages/vehicle_detection_rcnn.html">View project</a>
+                    </div>
+                </div>
+
+                <!-- Add more projects as needed -->
+
+            </div>
         </div>
 
-        <!-- Add more projects as needed -->
+        <!-- Freelancing Section -->
+        <div id="freelancing" class="project">
+            <h3>Freelancing</h3>
 
-      </div>
+            <!-- Featured Freelancing Projects -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h4>Freelance Project 1</h4>
+                        <p>Description of the first freelancing project. Include details about the client, your role, and
+                            the technologies used.</p>
+                        <a href="#">View project</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h4>Freelance Project 2</h4>
+                        <p>Description of the second freelancing project. Include details about the client, your role, and
+                            the technologies used.</p>
+                        <a href="#">View project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Information and Contact -->
+            <div class="mt-4">
+                <h4>Business Information</h4>
+                <p>You can contact me for freelancing opportunities or project collaborations:</p>
+                <ul>
+                    <li>Email: akashmahajan025@gmail.com</li>
+                    <li>Phone: (313)-500-5206</li>
+                </ul>
+                <p>Feel free to reach out for any inquiries or to submit work!</p>
+            </div>
+        </div>
     </div>
 
-    <!-- Skills Section -->
-    <div id="skills" class="skills">
-      <h2>Skills</h2>
-      <p>Here are some of the skills I possess:</p>
-      <ul>
-        <li>Data Analysis</li>
-        <li>Machine Learning</li>
-        <li>Python</li>
-        <li>Deep Learning</li>
-        <li>Computer Vision</li>
-        <!-- Add more skills as needed -->
-      </ul>
-    </div>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Akash Mahajan</p>
+    </footer>
 
-  </div>
-
-  <!-- Bootstrap JS and Popper.js -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
