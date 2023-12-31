@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,41 +23,81 @@
         }
     </style>
 </head>
+
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h1>Vehicle Detection using R-CNN</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Vehicle Detection using R-CNN</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Brief Description</h5>
+                <p>The key contribution of this project is a R-CNN model which can detect and locate vehicles in the
+                    image with bounding boxes.
+                    The R-CNN model is contains a pre-trained ResNet50 that accurately extracts relevant features and
+                    classifies a region proposal whether it contains
+                    a vehicle or not. The dataset is a combination of various image datasets like KITTI dataset and DAWN
+                    dataset because we wanted our model
+                    to detect vehicles in both clear as well as challenging weather conditions.
+                </p>
+                <p><b>Contributors:</b> Akash Mahajan and Yash Dave</p>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Results</h5>
+                <p style="text-align: center;">
+                    <img src="res/vehicle_rcnn.gif" alt="Vehicle R-CNN detection result" height="200px"><br />
+                    <caption>Vehicle detection result on image taken on smartphone</caption>
+                </p>
+                <p>
+                <h6>Installation instructions</h6>
+                </p>
+                <p>When you download the ZIP file, make sure to open and read the <code>README.html</code> file.
+                    Alternatively, you can read the following general instructions to install and use the Vehicle R-CNN
+                </p>
+                <p>
+                <ol>
+                    <li>Click <b>Zip (instructions inside)</b> in the <b>Software Releases</b> section below and
+                        download the ZIP file for the code releases.</li>
+                    <li>Using any ZIP extractor, unzip <code>code.zip</code> folder on your computer.</li>
+                    <li>The package will contain following folders and files:
+                        <ol>
+                            <li><code>model/...</code> contains all the released pre-trained <em>TensorFlow models</em>
+                            </li>
+                            <li><code>modules/...</code> contains all the necessary modules to re-train the R-CNN on a
+                                new dataset</li>
+                            <li><code>RCNN.py</code> is the source code which can be modified to adjust to new dataset
+                                and environment.</li>
+                        </ol>
+                    </li>
+                </ol>
+                </p>
+                <p>Note: You can <a href="">download our hybrid weather vehicle dataset</a> or you can edit the code in
+                    <code>RCNN.py</code> to train on your own ones. The code and all the files published in this project
+                    are protected by MIT License and we highly encourage you to protect the author rights.
+                    <b>Republishing the code is highly discouraged.</b> The contributors of this project do not show any conflict of interests.</p>
+                <p><b>Software Releases:</b>
+                    <a href="https://github.com/punarvas/vehicle-detection">GitHub repository</a> or
+                    <a href="#" download>Zip (instructions inside)</a>
+                </p>
+                <p><b>Want to contribute?</b> Jump to the GitHub repository and <a href="mailto:makash@umich.edu">send me a request</a> to become a open-source contributor to this project.</p>
+                <hr>
+            </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <h5>Brief Description</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac neque vel ex feugiat ultrices. Proin quis nisl nec sem imperdiet tempor. Vivamus nec efficitur libero.</p>
-            <p><b>Contributors:</b> Akash Mahajan and Yash Dave</p>
-            <hr />
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12">
-            <h5>Results</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac neque vel ex feugiat ultrices. Proin quis nisl nec sem imperdiet tempor. Vivamus nec efficitur libero.</p>
-            <p><b>Software Releases:</b> 
-            <a href="https://github.com/punarvas/vehicle-detection">GitHub repository</a> or 
-            <a href="#" download>Zip (instructions inside)</a>
-        </p>
-            <hr>
-        </div>
-    </div>
-</div>
-
-<!-- Bootstrap JS and dependencies (optional) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS and dependencies (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
