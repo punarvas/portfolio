@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Project: Lane U-Net</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 20px;
+        }
+
+        h5 {
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Lane U-Net</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Brief Description</h5>
+                <p>By introducing Batch Normalization and Dropout on the latent features, the performance of the original U-Net
+                    can be improved on detecting road lanes on KITTI dataset. In addition to that, the encoder layer is replaced with a pre-trained VGG16
+                    model for accurately representing latent features. The Lane U-Net is a extended version of U-Net that can identify lanes
+                    and segment them. 
+                </p>
+                <p><b>Contributors:</b> Akash Mahajan</p>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Results</h5>
+                <p style="text-align: center;">
+                    <img src="res/lane_unet.png" alt="Lane U-Net architecture and training" class="img-fluid"> <br />
+                    <caption>Lane U-Net architecture</caption>
+                </p>
+                <p><b>Software Releases:</b>
+                    <a href="https://github.com/punarvas/Lane-UNet">GitHub repository</a> or
+                    <a href="https://drive.google.com/uc?id=1PayNm7keiezcmE9Q5ZOjsPgGZqyjnS-P" download>Zip (instructions inside)</a>
+                </p>
+                <p><b>Want to contribute?</b> Jump to the GitHub repository and <a href="mailto:makash@umich.edu">send me a request</a> to become a open-source contributor to this project.</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
