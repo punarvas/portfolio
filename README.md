@@ -1,42 +1,12 @@
-# Academic Portfolio Website
+# Welcome to Akash Mahajan's Portfolio
 
-A professional academic portfolio website built with HTML, CSS, and JavaScript.
+Hello! This site is a personal academic portfolio where I share my story, research, code, and academic journey. You’re invited to explore what I’ve been working on and where I’m headed next.
 
-## Features
+## What You’ll Find Here
 
-- Responsive design that works on all devices
-- Smooth scrolling navigation
-- Sections for About, Education, Research, Projects, and Contact
-- Modern, clean design with academic focus
-- Interactive elements and animations
+- About me: who I am and what drives my work
+- Publications and code: recent papers, projects, and repositories
+- Education: master’s and bachelor’s studies with specializations
+- Contact: quick access to connect via email and LinkedIn
 
-## Structure
-
-- `index.html` - Main HTML structure
-- `style.css` - Styling and responsive design
-- `script.js` - JavaScript for interactivity
-
-## Customization
-
-1. Replace placeholder content in `index.html` with your actual information
-2. Add your profile picture as `placeholder.jpg`
-3. Add a research illustration as `research-placeholder.jpg`
-4. Update contact information and links
-5. Customize colors and fonts in `style.css` if desired
-
-## How to View
-
-Open `index.html` in your web browser to view the portfolio.
-
-## Development
-
-To make changes:
-- Edit `index.html` for content
-- Edit `style.css` for styling
-- Edit `script.js` for functionality
-
-## Technologies Used
-
-- HTML5
-- CSS3 (with Flexbox and Grid)
-- Vanilla JavaScript
+Click here to [jump directly to the live site](https://punarvas.github.io/portfolio/)!
